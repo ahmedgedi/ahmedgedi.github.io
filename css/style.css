@@ -1,62 +1,35 @@
 
-body { background: linear-gradient(270deg, #b60000, #75c8eb);
-background-size: 400% 400%;
-
--webkit-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
-
-} 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 40%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-    
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-#introBlurb {
-    float: center;
-}
-
-.container {
-    width: 50%;
-    overflow: hidden
-    height: 50%;
-    padding: 5%;
-    margin-top: 14%;
-    border: solid black 5px;
-    background-color: white;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.container h3 {
-    font-size: 4em;
-}
-
-a:hover {
-    text-decoration: none;
+html, body{
+    background-color: #7F4646;
+    font-size: 2.5vw;
     color: white;
-    font-family: Avenir;
+    width: 100%;
+    font-family: "Avenir", "Helvetica", "Arial";
+    overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-family: Avenir;
-}
-
-
-h3 {
+#contact {
+    position: bottom;
+    left: 25%;
     text-align: center;
-    font-family: "Avenir";
-    font-weight: bold;
-    font-size: 32pt;
+    bottom: 0vw;
 }
+
+.work-ex {
+    border: solid #501212 5px;
+    background-color: #6B2929;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.work-ex ul {
+    text-align: left;
+}
+
+
+
 
 
 
