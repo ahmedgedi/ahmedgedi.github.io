@@ -66,7 +66,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #4d4d4d;
 }
 
 .dev-icons {
@@ -74,7 +74,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #4d4d4d;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -178,9 +178,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #ff4500;
+  color: #343a40;
 }
 
 a:hover, a:focus, a:active {
-  color: #ff0000;
+  color: #495057;
 }
