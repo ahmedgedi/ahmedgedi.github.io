@@ -15,6 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
 	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 	<link href="css/resume.min.css" rel="stylesheet">
+	<link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -47,9 +48,6 @@
 			</li>
 			<li class="nav-item">
 				<a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
 			</li>
 		</ul>
 	</div>
@@ -223,44 +221,100 @@
 
 	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
 		<div class="w-100">
+
 			<h2 class="mb-5">Awards &amp; Certifications</h2>
-			<ul class="fa-ul mb-0">
-				<li>
-					<img src="./images/aws-certified-developer-associate.png">
-					Validation Number: 7BBJB9TJBFV4QLW0 - <b>Jan. 2021</b>
-				</li>
-				<li>
-					Eugene Marathon Finisher - <b>April 2019</b>
-				</li>
-				<li>
-					Gates Millennium Scholar -  <b>April 2015</b>
-				</li>
-			</ul>
+			
+			<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+				<div class="resume-content">
+					<div>
+						<p>
+							<img class="" src="./images/aws-certified-developer-associate.png">
+							AWS Certified Developer Associate - Validation Number: 7BBJB9TJBFV4QLW0
+						</p>
+					</div>
+				</div>
+				<div >
+					<span class="resume-date text-primary">Jan 2021</span>
+					
+				</div>
+				
+			</div>
+
+			<div class="resume-content">
+				<div>
+					Eugene Marathon Finisher
+				</div>
+			</div>
+			<div class="resume-date text-md-right">
+				<span class="text-primary">April 2019</span>
+			</div>
+
+			<div class="resume-content">
+				<div>
+					Gates Millennium Scholar
+				</div>
+			</div>
+			<div class="resume-date text-md-right">
+				<span class="text-primary">April 2015</span>
+			</div>
+
 		</div>
 	</section>
 
 	<br class="m-0">
 
 	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-		<div class="w-100">
+		<div class="resume-content">
 			<h2 class="mb-5">Projects</h2>
-			<code class="container">
-				This area is under a little bit of construction for now. Come back soon :]
-			</code>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">
+							Surveying App <i class="fa fa-envelope"></i>
+						</h3>
+						<p>
+							<em>React, Redux, Express, MongoDB, Stripe, Heroku</em>
+							<br class="mb-1">
+							Full stack web development practice project. Allows a user to create surveys using credits that can be purchased and used to send email surveys to multiple recipients.
+							<br class="mb-1">
+							<a href="https://github.com/ahmedgedi/surveying-app">Source</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">
+							Wifi Scanner <i class="fa fa-wifi"></i>
+						</h3>
+						<p>
+							<em>Python</em>
+							<br class="mb-1">
+							Simple Python GUI designed to give a user insight into devices connected to their local network
+							<br class="mb-1">
+							<a href="https://github.com/ahmedgedi/wifi-scanner-gui">Source</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+					<div class="resume-content">
+						<h3 class="mb-0">
+							Turbo Fibonacci <i class="fa fa-server"></i>
+						</h3>
+						<p>
+							<em>AWS, Kubernetes, NodeJs, Postgres, Redis</em>
+							<br class="mb-1">
+							An exercise in multi-container deployments, Kubernetes, and creating production grade pipelines for a NodeJS app leveraging multiple tools
+							<br class="mb-1">
+							<a href="https://github.com/ahmedgedi/turbo-fibonacci">Source</a>
+						</p>
+					</div>
+				</div>
+
 
 			</ul>
-
-	</section>
-
-	<br class="m-0">
-
-	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-		<div class="w-100">
-			<h2 class="mb-5">Interests</h2>
-			<p> I like to keep active. I primarily love long distance running, weightlifting, salsa dancing and playing basketball. I also like staying up to date on topics in information security, especially by partaking in capture-the-flag style hacking events which allow me to learn about vulnerabilities in a hands-on way. I'm regularly involved with the Portland InfoSec community and I'm highly active on Hack the Box, an online pentesting platform. </p>
 		</div>
 	</section>
-
 
 </div>
 
